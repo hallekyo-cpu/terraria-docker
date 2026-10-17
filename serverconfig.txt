@@ -2,7 +2,7 @@
 
 # World settings
 world=/terraria/worlds/world.wld
-autocreate=2
+autocreate=1
 worldname=MyTerrariaWorld
 
 # Server settings - Reduced for low memory
