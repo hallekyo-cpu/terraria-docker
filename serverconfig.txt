@@ -1,0 +1,26 @@
+# Terraria Server Configuration
+
+# World settings
+world=/terraria/worlds/world.wld
+autocreate=2
+worldname=MyTerrariaWorld
+
+# Server settings
+maxplayers=8
+port=7777
+password=
+motd=Welcome to my Terraria server!
+
+# Difficulty (0=Classic, 1=Expert, 2=Master, 3=Journey)
+difficulty=0
+
+# Language
+language=en-US
+
+# Security
+secure=1
+npcstream=60
+priority=1
+
+# Server behavior
+journeypermission=2
