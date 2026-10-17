@@ -2,11 +2,11 @@
 
 # World settings
 world=/terraria/worlds/world.wld
-autocreate=3
+autocreate=2
 worldname=MyTerrariaWorld
 
 # Server settings - Reduced for low memory
-maxplayers=20
+maxplayers=5
 port=7777
 password=
 motd=Welcome to my Terraria server!
