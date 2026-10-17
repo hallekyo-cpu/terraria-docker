@@ -1,11 +1,11 @@
-# Terraria Server Dockerfile
-FROM ubuntu:22.04
+# Terraria Server Dockerfile - Optimized for low memory
+FROM debian:bookworm-slim
 
-# Install dependencies
+# Install dependencies and clean up in single layer
 RUN apt-get update && \
-    apt-get install -y wget unzip && \
+    apt-get install -y --no-install-recommends wget unzip ca-certificates && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Create terraria user and directories
 RUN useradd -m -d /terraria terraria && \

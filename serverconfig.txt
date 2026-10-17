@@ -1,12 +1,12 @@
-# Terraria Server Configuration
+# Terraria Server Configuration - Optimized for 1GB RAM
 
 # World settings
 world=/terraria/worlds/world.wld
-autocreate=2
+autocreate=1
 worldname=MyTerrariaWorld
 
-# Server settings
-maxplayers=8
+# Server settings - Reduced for low memory
+maxplayers=4
 port=7777
 password=
 motd=Welcome to my Terraria server!
@@ -19,8 +19,11 @@ language=en-US
 
 # Security
 secure=1
-npcstream=60
+npcstream=30
 priority=1
 
 # Server behavior
 journeypermission=2
+
+# Performance optimization
+upnp=0
